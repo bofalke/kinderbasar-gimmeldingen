@@ -1,6 +1,15 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+
 body {
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
-    color: #333;
+    color: #555;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: scroll;
 }
 
 header {
@@ -43,7 +52,6 @@ ul li {
     margin-bottom: 10px;
     font-size: 1.3em;
     line-height: 1.5em;
-    color: #555;
 }
 
 ul.arrows li:before {
@@ -61,4 +69,24 @@ ul.arrows li:before {
 
 p {
     font-size: 1.3em;
+    color: #555;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
 }
