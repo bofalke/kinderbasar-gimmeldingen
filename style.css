@@ -89,15 +89,6 @@ li.arrows:before {
     color: #af4261;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        background-size: auto 100%;
-    }
-    .col-md-4 {
-        text-align: center;
-    }
-}
-
 p {
     font-size: 1.3em;
     color: #555;
@@ -120,4 +111,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: auto 100%;
+    }
+    .col-md-4 {
+        text-align: center;
+    }
 }
